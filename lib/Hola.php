@@ -1,4 +1,5 @@
 <?php
-//Comentario nuevo <laura>
-$nombre = isset ($argv[1]) ? $argv[1] : "Mundo";
+//Autor: Laura Hernández <laura.hercip@educa.jcyl.es>
+print "Introduce tu nombre;";
+$nombre = trim(fgets(STDIN));
 @print "Hola, {$Snombre}\n";
